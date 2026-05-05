@@ -105,7 +105,7 @@ alloc = ["smoltcp/alloc"]
 defmt = { version = "1.0.1", optional = true }
 log = { version = "0.4.14", optional = true }
 
-smoltcp = { version = "0.12.0", default-features = false, features = [
+smoltcp = { version = "0.13.1", default-features = false, features = [
   "socket",
   "async",
 ] }
@@ -121,4 +121,4 @@ embedded-nal-async = "0.8.0"
 document-features = "0.2.7"
 
 [patch.crates-io]
-smoltcp = { git = "https://github.com/ususdei/smoltcp.git", rev = "c189a2e8832dc7951c7455465f61151b95bb1e21" }
+smoltcp = { git = "https://github.com/not-Ryan/smoltcp.git" }
